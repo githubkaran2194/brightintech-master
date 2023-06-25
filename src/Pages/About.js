@@ -6,17 +6,13 @@ function About() {
     <div className="row">
     <h1 id="title" className='mx-auto mt-5'>About Us</h1>
     </div>
-   <div className="img">
-    <img src="https://www.motocms.com/blog/wp-content/uploads/2017/11/about-us-page-concept-illustrati-1.jpg" alt="about-img" width={1000} className="mx-5 mt-5"/>
-   </div>
-   <div className="about-item-area col-md-12">
-<div className="about-text col-md-9">
-<span id='line1'></span>
+    <img src="https://www.motocms.com/blog/wp-content/uploads/2017/11/about-us-page-concept-illustrati-1.jpg" alt="about-img" width={1000} className=" col-md-12"/>
+<div className="about-text col-md-12 mt-5">
   <h4  id='line-text'>Who are you</h4>
   <p>We as a team BrighinTech, we oversee a dynamic team specializing in Digital marketing, DevOps, Cloud solutions, Web development, and App development. We drive innovation and deliver exceptional results, leveraging our expertise to help businesses thrive in the digital landscape.</p>
 </div>
+<hr />
 <div className="about-text col-md-12">
-<span id='line2'></span>
   <h4 id='line-text'>Core Values</h4>
   <h1>INTEGRITY</h1>
   <p>To be fair, transparent, and ethical in our conduct with all our stakeholders
@@ -37,6 +33,7 @@ function About() {
   <p>Ensuring enduring prosperity for all, through shared knowledge, value-creating relationships, and sustainable growth
 </p>
 </div>
+<hr />
 <div className="about-text col-md-12">
 <h4  id='line-text'>Our Beliefs</h4>
 <h2>Shared prosperity is invaluable for sustainable business</h2>
@@ -62,12 +59,9 @@ We are Committed to
     </li>
   </ul>
 </div>
-<div className="about-text col-md-12"></div>
-<div className="about-last-img">
-  <img src="https://www.brightintech.com/wp-content/uploads/2023/05/undraw_building_websites_i78t-300x221.png" alt="about-last-img" />
+ 
 </div>
-   </div>
-    </div>
+   
   )
 }
 

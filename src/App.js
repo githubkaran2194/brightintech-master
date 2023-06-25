@@ -4,7 +4,7 @@ import About from './Pages/About';
 import Contact from './Pages/Contact';
 import Footer from './component/Footer';
 import Home from './Pages/Home';
-import Nav from './component/Nav';
+import MyNavbar from './component/Nav'
 import Services from './Pages/Services';
 import WebDevelopment from './Pages/WebDevelopment';
 import DigitalMarketing from './Pages/DigitalMarketing';
@@ -17,7 +17,7 @@ function App() {
     <>
 
       <BrowserRouter>
-        <Nav/>
+        <MyNavbar/>
         <Routes>
           <Route  path='/' element={<Home />} />
           <Route path='/about' element={<About />} />

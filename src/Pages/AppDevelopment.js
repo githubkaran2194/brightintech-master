@@ -20,7 +20,7 @@ Our mission is to empower businesses of all sizes to harness the power of digita
 <p>
 At our core, we value innovation, creativity, and continuous learning. The digital landscape is constantly evolving, and we stay ahead of the curve by staying up-to-date with the latest trends, technologies, and best practices. Our team of experts is passionate about their craft and is always exploring new strategies to maximize the effectiveness of our clients’ digital marketing campaigns. 
 </p>
-<h2>Services we offer:</h2>
+<h2>Services we offer</h2>
 <ol>
   <li>Search Engine Optimization (SEO): We optimize websites to improve their search engine rankings, increase organic traffic, and enhance online visibility.</li>
   <li>Pay-Per-Click (PPC) Advertising: We create and manage targeted advertising campaigns on platforms like Google Ads, Facebook Ads, and more, to drive relevant traffic and maximize conversions.</li>
