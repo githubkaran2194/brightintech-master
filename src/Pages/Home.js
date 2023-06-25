@@ -1,39 +1,12 @@
 import React from 'react'
-import { Button, Container } from 'react-bootstrap';
+import { Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import '../App.css'
-// import { Carousel } from 'react-responsive-carousel';
-// import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import img from '../Assets/img.png'
 
 const Home = () => {
   return (
     <>
-{/*           
-    <Container className='mt-1' fluid >
-                <Carousel
-                    autoPlay={true}
-                    infiniteLoop={true}
-                    showThumbs={false}
-                    showIndicators={true}
-                    showStatus={false}
-                    transitionTime={0.3}
-                >
-                    <div>
-                        <img src="https://www.webibazaar.com/blog/wp-content/uploads/2021/02/1-Handi-Tool.jpg" alt="Image 1" height={650} />
-                        <p className="legend">Legend 1</p>
-                    </div>
-                    <div>
-                        <img src="https://d85wutc1n854v.cloudfront.net/live/products/600x375/WB0CS9DSM.png?v=3.0.0" alt="Image 2" height={650} />
-                        <p className="legend">Legend 2</p>
-                    </div>
-                    <div>
-                        <img src="https://www.webibazaar.com/blog/wp-content/uploads/2021/02/0-Free-eCommerce-Website-Templates-For-Creating-Your-Wonderful-S-837x443.jpg" alt="Image 3" height={650} />
-                        <p className="legend">Legend 3</p>
-                    </div>
-                </Carousel>
-            </Container>  */}
-
       <div className="container mt-5 mb-5 home">
         <div className="row">
           <div className="col-md-6 mb-5">
