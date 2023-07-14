@@ -3,6 +3,7 @@ import { Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import '../App.css'
 import img from '../Assets/img.png'
+import 'animate.css'
 
 const Home = () => {
   return (
@@ -10,10 +11,9 @@ const Home = () => {
       <div className="container mt-5 mb-5 home">
         <div className="row">
           <div className="col-md-6 mb-5">
-            <img src={img} alt="" width={500} className="img-fluid" />
+            <img src={img} alt="" width={500} className="img-fluid  animate__animated animate__backInLeft animate__delay-0.5s" />
           </div>
-          <div className="col-md-6">
-
+          <div className="col-md-6 animate__animated animate__backInRight animate__delay-0.5s offsate ">
             <h4>GET EXPERIENCE WITH US</h4>
             <h1 >Your Idea, Our Innovation
               Together We Build
@@ -36,7 +36,7 @@ const Home = () => {
 
 
       <div className="container">
-        <div className="row">
+        <div className="row animate__animated animate__backInLeft animate__delay-0.5s offsate ">
           <div className="col-md-3 card_1 ">
             <i className="fab fa-codepen"></i>
             <h1>Easily Customizable</h1>

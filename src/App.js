@@ -10,6 +10,7 @@ import WebDevelopment from './Pages/WebDevelopment';
 import DigitalMarketing from './Pages/DigitalMarketing';
 import DevOps from './Pages/DevOps';
 import AppDevelopment from './Pages/AppDevelopment';
+import PlanPricing from './Pages/PlanPricing';
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
           <Route path='/appDevelopment' element={<AppDevelopment/>}/>
           <Route path="webdevelopment" element={<WebDevelopment/>} />
           <Route path="digitalMarketing" element={<DigitalMarketing />} />      
+          <Route path='planAndPricing' element={<PlanPricing/>} />
           <Route path='/contact' element={<Contact />} />
         </Routes>
         <Footer/>

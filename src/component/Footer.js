@@ -42,7 +42,7 @@ const Footer = () => {
        <div className="col-md-4">
        <ul>
                 <li><a href="" className='item'>Product List</a></li>
-                <li><a href="" className='item'>Plan & Pricing</a></li>
+                <li><Link to="/planAndPricing" className='item'>Plan & Pricing</Link></li>
                 <li><Link to="/services" className='item'>Services</Link></li>
                 <li><a href="" className='item'>Partners</a></li>
               </ul>
